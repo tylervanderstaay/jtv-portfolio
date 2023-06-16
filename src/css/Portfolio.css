@@ -1,0 +1,34 @@
+.portfolioMain{
+    width:80%;
+    height:700px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+.portfoliobg{
+    background-image:url('../images/blues.jpg');
+    height:700px;
+    width:100%;
+    left:0;
+    position:absolute;
+    z-index: 5;
+}
+.project-card{
+    background-color:rgb(128, 128, 128);
+    width:250px;
+    height:250px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.projectwrap{
+    position:absolute;
+    
+}
+
+.project-card h2{
+    color:white;
+}
