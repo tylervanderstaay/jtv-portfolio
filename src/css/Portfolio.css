@@ -1,34 +1,42 @@
 .portfolioMain{
     width:80%;
-    height:700px;
+    height:400px;
     display:flex;
     flex-direction:row;
     justify-content:center;
     align-items:center;
-    gap:50px;
+    gap:100px;
 }
 .portfoliobg{
     background-image:url('../images/blues.jpg');
-    height:700px;
-    width:100%;
-    left:0;
+    height:400px;
+    width:90%;
+    left:5%;
     position:absolute;
-    z-index: 5;
+    z-index: 0;
+}
+.projwindow{
+    width:100%;
+    display:flex;
+    justify-content:center;
 }
 .project-card{
-    background-color:rgb(128, 128, 128);
-    width:250px;
-    height:250px;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    background:radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8178834033613446) 19%, rgba(163,163,163,0.6638217787114846) 49%, rgba(163,163,163,0) 100%);
     display:flex;
     flex-direction:row;
     justify-content:center;
     align-items:center;
 }
-.projectwrap{
-    position:absolute;
-    
-}
-
 .project-card h2{
     color:white;
+}
+.sonic{
+    position:absolute;
+    width:20px;
+    height:40px;
+    background-color:blue;
+    z-index:10;
 }
